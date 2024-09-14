@@ -191,4 +191,4 @@ y_pred = xgb.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred) * 100
 print("Accuracy:", accuracy, "%")
 
-!streamlit run "TITANIC SURVIVAL (COMPLETED).ipynb"
+!streamlit run "TITANIC SURVIVAL (COMPLETED).py"
